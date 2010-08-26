@@ -1,0 +1,8 @@
+A java zip creator utility. To create a zip file:
+
+ZipCreator zipCreator = new ZipCreator();
+// Sets images as the base folder. Files added will be relativized to this folder
+zipCreator.setBaseDir("images");
+String zipName = "images.zip";
+zipCreator.zip("images", zipName);
+
